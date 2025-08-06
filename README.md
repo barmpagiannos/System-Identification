@@ -13,47 +13,37 @@ Developed as part of academic experimentation in system modeling and signal anal
 - **`Numerical_Differentiation.m`**  
   Estimates derivatives of a sine signal using forward, backward, and central differences.
 
-- **`effect_of_noise_on_derivative.m`**  
+- **`Effect_of_Noise.m`**  
   Shows how noise affects numerical differentiation and compares with the true derivative.
 
-- **`euler_integration.m`**  
+- **`Euler_Integration.m`**  
   Solves the ODE `dx/dt = -2x` using Euler integration and compares to the exact solution.
 
 ---
 
 ### 🔊 Signal Filtering
 
-- **`signal_filtering.m`**  
+- **`Signal_Filtering.m`**  
   Compares multiple filters (moving average, Butterworth, Savitzky-Golay) on a noisy sine signal.
 
-- **`noise_cancellation_demo.m`**  
+- **`noisy_data.m`**  
   Demonstrates the effect of additive measurement noise and uses filters (Butterworth, lowpass, moving average) to suppress it.
 
 ---
 
 ### 🧮 Least Squares Estimation
 
-- **`lsq_mass_spring.m`**  
-  Estimates mass `m` and spring constant `k` from position and acceleration data via linear regression.
-
-- **`lsq_omega_estimation.m`**  
+- **`Mass_Spring_LS.m`**  
   Estimates natural frequency `ω` from known position and acceleration using least squares.
+  
+- **`Mass_Spring_RLS.m`**  
+  Real-time estimation of `ω²` from synthetic position and acceleration using RLS with forgetting factor.
 
-- **`lsq_arx_model.m`**  
+- **`ARX_model.m`**  
   Identifies the parameters of an ARX (Auto-Regressive with eXogenous input) model from simulated input-output data.
 
-- **`mass_spring_simulation_and_estimation.m`**  
+- **`Mass_Spring.m`**  
   Simulates a mass-spring system with `ode45` and estimates its parameters afterward from generated data.
-
----
-
-### 🔁 Recursive Least Squares (RLS)
-
-- **`rls_mass_spring.m`**  
-  Online estimation of `m` and `k` using recursive least squares on a dynamic model.
-
-- **`rls_omega_estimation.m`**  
-  Real-time estimation of `ω²` from synthetic position and acceleration using RLS with forgetting factor.
 
 ---
 
@@ -76,8 +66,8 @@ All scripts generate figures and console outputs to visualize:
 
 ## ✍️ Author
 
-**[Your Name]**  
-Student / Engineer  
+**Vasileios Barmpagiannos**  
+Studen
 ECE AUTH – School of Electrical & Computer Engineering
 
 ---
