@@ -1,4 +1,4 @@
-# 🧠 System Identification and Signal Processing with MATLAB
+# System Identification and Signal Processing with MATLAB
 
 This repository includes multiple MATLAB scripts on **system identification**, **parameter estimation**, **signal processing**, and **numerical methods**. All examples are based on synthetic data or models and illustrate concepts in filtering, estimation, and simulation.
 
@@ -6,9 +6,9 @@ Developed as part of academic experimentation in system modeling and signal anal
 
 ---
 
-## 📁 Contents
+## Contents
 
-### 📐 Numerical Differentiation & Integration
+### Numerical Differentiation & Integration
 
 - **`Numerical_Differentiation.m`**  
   Estimates derivatives of a sine signal using forward, backward, and central differences.
@@ -21,7 +21,7 @@ Developed as part of academic experimentation in system modeling and signal anal
 
 ---
 
-### 🔊 Signal Filtering
+### Signal Filtering
 
 - **`Signal_Filtering.m`**  
   Compares multiple filters (moving average, Butterworth, Savitzky-Golay) on a noisy sine signal.
@@ -31,7 +31,7 @@ Developed as part of academic experimentation in system modeling and signal anal
 
 ---
 
-### 🧮 Least Squares Estimation
+### Least Squares Estimation
 
 - **`Mass_Spring_LS.m`**  
   Estimates natural frequency `ω` from known position and acceleration using least squares.
@@ -47,7 +47,7 @@ Developed as part of academic experimentation in system modeling and signal anal
 
 ---
 
-## 📊 Plots and Output
+## Plots and Output
 
 All scripts generate figures and console outputs to visualize:
 - estimation convergence,
@@ -56,7 +56,7 @@ All scripts generate figures and console outputs to visualize:
 
 ---
 
-## 📄 Requirements
+## Requirements
 
 - MATLAB R2020b or later  
 - Signal Processing Toolbox  
@@ -64,7 +64,7 @@ All scripts generate figures and console outputs to visualize:
 
 ---
 
-## ✍️ Author
+## Author
 
 **Vasileios Barmpagiannos**  
 Studen
@@ -72,7 +72,7 @@ ECE AUTH – School of Electrical & Computer Engineering
 
 ---
 
-## 🧾 License
+## License
 
 This repository is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
